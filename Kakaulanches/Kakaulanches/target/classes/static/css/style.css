@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.content{
+display: grid;
+grid-template-rows: 0.5fr 2fr 1fr 2fr;
+}
+
+.container-mid{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.container-mid >img{
+width: 55%;
+margin-bottom: 15%;
+}
+
+.text-mid{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20%;
+font-family: var(--font-primary);
+}
+
+.text-mid >h2{
+font-size: 7rem;
+color: var(--color-txt-black);
+}
+
+.text-mid >p{
+font-size: 2.5rem;
+}
+
+.container-button{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container-button >a{
+font-size: 3.5rem;
+color: black;
+}
+
+.ctn-btn-align{
+display: flex;
+align-items: center;
+padding: 15px 75px;
+text-decoration: none;
+background-color: var(--color-txt-login);
+border-radius: 60px;
+}
+
+.ctn-btn-align >p{
+color: var(--color-txt-white);
+font-family: var(--font-primary);
+}
+
+.txt-version{
+margin-top: 3rem;
+text-align: center;
+}
+
+.txt-version >p{
+font-size: 2rem;
+font-family: var(--font-primary);
+}
+
+
+
+
+

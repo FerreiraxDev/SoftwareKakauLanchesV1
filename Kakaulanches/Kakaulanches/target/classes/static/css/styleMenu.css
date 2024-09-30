@@ -1,0 +1,63 @@
+.container-fluid{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 40px;
+}
+
+.img-black{
+width: 25%;
+}
+
+#categoryCarousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-gray);
+}
+
+.carousel-inner{
+display: flex;
+flex-direction: row;
+overflow: scroll;
+margin: 1.5rem 0rem;
+
+}
+
+.carousel-item {
+    text-align: center;
+    margin-right: 55px;
+
+}
+
+.items > .txt{
+display: flex;
+flex-direction: row;
+align-items: center;
+color: var(--color-txt-black);
+}
+
+.txt > p{
+font-family: var(--font-primary);
+font-size: 2rem;
+}
+
+.txt > span{
+font-size:2.5rem;
+}
+
+.carousel-item >button {
+    padding: 20px 50px;
+    font-size: 32px;
+    border: none;
+    border-radius: 60px;
+    font-family: var(--font-primary);
+}
+
+.active button{
+background-color: var(--color-txt-black);
+color: white;
+
+}
+
